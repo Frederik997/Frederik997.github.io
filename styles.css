@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* ================= */
+/* Header Section */
+/* ================= */
+#main-section {
+  background: #6943ff;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 34px;
+}
+/* Title */
+h1 {
+  font-size: 28px;
+}
+/* Input Field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  display: block;
+  margin-inline: auto;
+  margin-top: 30px;
+  width: 117px;
+  height: 83px;
+  background: transparent;
+  font-size: 57px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #fff;
+}
+input:focus {
+  outline: #fff;
+}
+/* Button */
+button {
+  margin-top: 26.77px;
+  background: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 9px 27.5px;
+  font-size: 16px;
+}
+/* ================= */
+/* Conversion Section */
+/* ================= */
+#conversion {
+  background: #f4f4f4;
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+#length,
+#volume,
+#mass {
+  display: block;
+  margin-inline: auto;
+  width: 75%;
+  height: 108.57px;
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#volume,
+#mass {
+  margin-top: 23.43px;
+}
+h3 {
+  font-size: 20px;
+  color: #5a537b;
+}
+p {
+  font-size: 14px;
+  padding-bottom: 6px;
+  color: #353535;
+}
+
+@media (max-width: 425px) {
+  h1 {
+    padding-left: 5px;
+  }
+  #length,
+  #volume,
+  #mass {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  #mass p {
+    padding-inline: 5px;
+  }
+}
